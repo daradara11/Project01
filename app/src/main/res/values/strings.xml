@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CloneTwitter</string>
+    <string name="app_name1">Twitter</string>
+    <string name="welcome_text">See what\'s\nhappening in the\nworld right now.</string>
+</resources>

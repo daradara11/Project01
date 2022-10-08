@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_round_arrow_back_24"/>
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/twitter_blue_logo"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create your account"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/edt_name"
+        android:focusable="true"
+        android:layout_width="315dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edt_emailOrPhone"
+        android:layout_width="315dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Phone number or email address"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/edt_dob"
+        android:layout_width="315dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Date of birth"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:background="@drawable/button_shape"
+        android:layout_gravity="right"
+        android:layout_marginTop="1150px"
+        android:layout_marginRight="20dp"/>
+
+
+</LinearLayout>

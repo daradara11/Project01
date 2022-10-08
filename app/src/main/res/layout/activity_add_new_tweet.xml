@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewTweetActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_backNewTweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_round_arrow_back_24" />
+
+        <Button
+            android:id="@+id/btn_tweet"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_shape"
+            android:text="Tweet"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/edt_newTweet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="What's happening?"
+        android:padding="20dp"
+        android:maxLength="280"
+        android:gravity="top"
+        android:lines="25"
+        android:inputType="textMultiLine"/>
+
+</LinearLayout>

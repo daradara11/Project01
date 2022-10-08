@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1"
+        android:title="Profile" android:icon="@drawable/ic_profile"/>
+    <item android:id="@+id/item2"
+        android:title="Lists" android:icon="@drawable/ic_baseline_list_alt_24"/>
+    <item android:id="@+id/item3"
+        android:icon="@drawable/ic_topic" android:title="Topic"/>
+    <item android:id="@+id/item4"
+        android:icon="@drawable/ic_round_book_24" android:title="Bookmarks"/>
+    <item android:id="@+id/item5"
+        android:icon="@drawable/ic_moment" android:title="Moment"/>
+    <item android:id="@+id/item6"
+        android:icon="@drawable/ic_monitization" android:title="Monitization"/>
+    <item android:id="@+id/item7"
+        android:icon="@drawable/ic_ads" android:title="Twitter Ads"/>
+    <item android:id="@+id/item8" android:title="Setting and Privacy"/>
+    <item android:title="Help Center" android:id="@+id/item9"/>
+
+</menu>
