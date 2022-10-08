@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity{
         floatingActionButton = findViewById(R.id.flbtn_add_tweet);
         listView = findViewById(R.id.twitterListView);
 	   int a = 10;
+	   float b = 10.50f;
 
 
 
