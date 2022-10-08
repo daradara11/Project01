@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity{
         menu = findViewById(R.id.img_menu);
         floatingActionButton = findViewById(R.id.flbtn_add_tweet);
         listView = findViewById(R.id.twitterListView);
+	   int a = 10;
 
 
 
